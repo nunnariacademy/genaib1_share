@@ -1,0 +1,9 @@
+reason_code,reason,eligible,refund_pct,requires_approval
+damaged,Product arrived damaged in transit,yes,100,no
+defective,Product does not work as described,yes,100,no
+wrong_item,Wrong item shipped,yes,100,no
+late_delivery,Delivered past the SLA window,yes,100,yes
+changed_mind,Customer changed mind within return window,yes,70,no
+used_product,Product shows signs of use,yes,50,yes
+missing_parts,Package missing advertised components,yes,100,no
+outside_window,Return requested after 30-day window,no,0,yes
